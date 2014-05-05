@@ -39,7 +39,6 @@ class Expression:
         return c_expression
 
     def __eq__(self, other):
-        """Return's wether this expression is equal to the other expression"""
         # convert to string and test equality!
         return self.pretty_print() == other.pretty_print()
 
