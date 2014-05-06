@@ -1,7 +1,7 @@
 from copy import deepcopy
 
 
-class Expression:
+class Expression(object):
     def __init__(self, func, *operands):
         self.func = func
 
